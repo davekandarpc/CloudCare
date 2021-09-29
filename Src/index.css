@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif, 'Source_Sans_Pro';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* transform: scale(0.8); */
+  zoom: 90%;
+  /* transform-origin: 0 0; */
+}
+
+div { 
+  /* font-size: 0.8vh !important; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, Source_Sans_Pro, 'Courier New',
+    monospace;
+}
+
+.MuiInputBase-input {
+  border-radius: initial !important;
+}
+
+.MuiOutlinedInput-root {
+  border-radius: initial !important;
+}
+
+.MuiButton-root {
+  border-radius: initial !important;
+}
+
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: local('Roboto-Thin'), url(./fonts/Roboto-Thin.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Light';
+  src: local('Roboto-Light'), url(./fonts/Roboto-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: local('Roboto-Regular'), url(./fonts/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: local('Roboto-Medium'), url(./fonts/Roboto-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: local('Roboto-Bold'), url(./fonts/Roboto-Bold.ttf) format('truetype');
+}
+
+
+/*
+  font-family: 'Roboto-Regular';
+  src: local('KaiseiTokumin-Regular'), url(./fonts/KaiseiTokumin-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: local('KaiseiTokumin-Medium'), url(./fonts/KaiseiTokumin-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: local('KaiseiTokumin-Bold'), url(./fonts/KaiseiTokumin-Bold.ttf) format('truetype');
+}
+*/

@@ -1,0 +1,101 @@
+.mainContainer {
+  /* text-align: center; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.videoContainer {
+  background-color: #b5b5b5;
+  /* display: flex; */
+  align-items: center;
+  /* justify-content: center; */
+  color: white;
+  height: 70vh;
+  position: relative;
+}
+
+.videoContainerHeader {
+  background-color: #282c34;
+  z-index: +99;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 12px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.videoTile {
+  width: "80%";
+  height: "50%";
+}
+.container {
+  display: flex;
+}
+.parent {
+  position: relative;
+  z-index: 1;
+  height: calc(100% - 55px) !important;
+}
+.over-img {
+  position: absolute;
+  top: 60px;
+  right: 280px;
+  z-index: 2;
+}
+.personName {
+  color: #fff;
+  font-size: 14px;
+}
+.controls {
+  display: flex;
+  align-items: center;
+}
+.videoControl {
+  margin-right: 10px !important;
+}
+.videoControl:hover {
+  margin-right: 10px !important;
+  background: #0080ff !important;
+}
+.endCallButton {
+  background-color: #fc0e33 !important;
+  color: #fff !important;
+  position: absolute !important;
+  bottom: 12px !important;
+  left: 45%;
+  z-index: +2;
+}
+.billingSection {
+  margin-top: 16px;
+  text-align: left;
+}
+.billingSectionColumn1 {
+  border-right: 1px solid #ededed;
+  padding-right: 10px;
+}
+.billingSectionColumn2 {
+  border-right: 1px solid #ededed;
+  padding-left: 10px;
+  padding-right: 10px;
+}

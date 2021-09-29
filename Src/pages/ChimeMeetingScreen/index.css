@@ -1,0 +1,158 @@
+.mainContainer {
+  /* text-align: center; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.videoContainer {
+  background-color: #b5b5b5;
+  /* display: flex; */
+  /* justify-content: center; */
+  color: white;
+  height: 70vh;
+  position: relative;
+}
+
+.videoContainerHeader {
+  background-color: #282c34;
+  z-index: +99;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 45px;
+}
+
+.videoTilesContainer {
+  height: calc(100% - 45px) !important;
+  text-align: left;
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+}
+
+.parent {
+  position: relative;
+  z-index: 1;
+  /* height: calc(100% - 45px) !important; */
+  width: 49% !important;
+  /* margin-left: 5px; */
+}
+
+@media only screen and (max-width: 720px) {
+  .parent {
+    position: absolute;
+    top: 8%;
+    right: 10px;
+    /* z-index: 1; */
+    /* height: calc(100% - 45px) !important; */
+    width: 30% !important;
+  }
+}
+.over-img {
+  position: relative;
+  /*top: 60px;
+  right: 280px;
+  z-index: 2; */
+  z-index: 1;
+  /* height: calc(100% - 45px) !important; */
+  width: 49% !important;
+  /* margin-left: 5px; */
+}
+@media only screen and (max-width: 720px) {
+  .over-img {
+    /* position: absolute; */
+    /*top: 60px;
+    right: 280px;
+    z-index: 2; */
+    /* z-index: 1; */
+    /* height: calc(100% - 45px) !important; */
+    width: 100% !important;
+    position: relative;
+  }
+}
+
+.personName {
+  color: #fff;
+  font-size: 14px;
+}
+.controls {
+  display: flex;
+  align-items: center;
+}
+.videoControl {
+  margin-right: 10px !important;
+}
+.videoControl:hover {
+  margin-right: 10px !important;
+  background: #0080ff !important;
+}
+.endCallButtonWrapper {
+  background-color: #fc0e33 !important;
+  position: absolute !important;
+  bottom: 12px !important;
+  left: 45.65%;
+  z-index: +2;
+}
+.endCallButton {
+  background-color: #fc0e33 !important;
+  color: #fff !important;
+}
+
+@media only screen and (max-width: 720px){
+  .endCallButtonWrapper {
+    background-color: #fc0e33 !important;
+    color: #fff !important;
+    position: absolute !important;
+    bottom: 12px !important;
+    left: 45.65%;
+    z-index: +2;
+  }
+}
+.billingSection {
+  margin-top: 16px;
+  text-align: left;
+}
+.billingSectionColumn1 {
+  border-right: 1px solid #ededed;
+  padding-right: 10px;
+}
+.billingSectionColumn2 {
+  border-right: 1px solid #ededed;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.popupHeader {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.cancelMeetingPromptButtons {
+  text-align: right;
+  padding: 12px;
+}
+.popupHeaderBg_hemas {
+  background-color: #0080ff;
+  height: 50px;
+  width: 100%
+}
+.popupHeaderBg_durdans {
+  background-color: #0080ff;
+  height: 50px;
+  width: 100%
+}
+.popupHeaderBg_nawaloka {
+  background-color: rgba(73,198,185,1.00);
+  height: 50px;
+  width: 100%
+}
